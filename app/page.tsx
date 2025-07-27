@@ -46,7 +46,7 @@ export default function HomePage() {
           Hola, soy Jmgamer
         </h1>
         <p className="mt-4 text-lg md:text-xl text-muted-foreground">
-          Desarrollador Full Stack & Entusiasta Tecnológico
+          Creador de Software & Diseñador Digital en Formación.
         </p>
         
         <div className="flex flex-wrap justify-center gap-6 mt-8">
@@ -75,7 +75,7 @@ export default function HomePage() {
       <motion.section id="about" className="py-24" {...sectionAnimation}>
         <h2 className="text-3xl font-bold text-center mb-8">Sobre Mí</h2>
         <p className="text-center max-w-2xl mx-auto text-muted-foreground">
-          Soy un desarrollador de software con una profunda pasión por construir aplicaciones web intuitivas, eficientes y visualmente atractivas. Me encanta resolver problemas complejos y aprender continuamente sobre nuevas tecnologías para llevar mis ideas a la realidad digital.
+          Soy un entusiasta en el camino del desarrollo, con experiencia inicial en programación y modelado 3D. A pesar de mi poca trayectoria, he estado inmerso en varios proyectos que demuestran mi pasión y que, progresivamente, iré compartiendo. Mi determinación me impulsa a crecer y aportar en cada nuevo desafío.
         </p>
       </motion.section>
 

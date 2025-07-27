@@ -2,9 +2,9 @@
 
 export const SKILLS = {
   "Lenguajes": ["JavaScript", "Python", "HTML/CSS"],
-  "Frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-  "Backend": ["Node.js", "Express", "PostgreSQL", "REST APIs"],
-  "Herramientas": ["Git", "Docker", "Figma", "Jira"],
+  /* "Frontend": ["React", "Next.js", "Tailwind CSS", "Framer Motion"], */
+  /* "Backend": ["Node.js", "Express", "PostgreSQL", "REST APIs"], */
+  "Herramientas": ["Blender", "Photoshop","Visual Studio Code"],
 };
 
 export const PROJECTS = [
@@ -51,6 +51,16 @@ export const PROJECTS = [
     liveUrl: "https://marketplace.visualstudio.com/items?itemName=Jmgamer1199.jm-theme",
     // Este proyecto no tiene 'downloadUrl', por lo que no mostrará el botón.
   },
+  {
+    title: "Pokeball 3d",
+    description: "Aquí está mi modelo 3D de una Poké Ball; fue mi primer intento y aún estoy aprendiendo a texturizar, por lo que verás algunos errores. Pero estoy orgulloso de la forma, y creo que la esencia de la Poké Ball está ahí.",
+    tags: ["Blender", "Photoshop", "3D Model"],
+    // Este proyecto no tiene 'imageUrl' ni 'downloadUrl'.
+    imageUrl: "/images/pokeball_reflejos.png",
+    downloads: [
+      { label: "Descargar", url: "/downloads/Pokeball.blend" },
+    ],
+  },
 /*{
     title: "Portafolio Personal v1",
     description: "La primera versión de mi portafolio, construida para aprender los fundamentos de React y el diseño web responsivo.",
@@ -58,5 +68,6 @@ export const PROJECTS = [
     // Este proyecto no tiene 'imageUrl' ni 'downloadUrl'.
     liveUrl: "https://ejemplo.com",
     repoUrl: "https://github.com/tu-usuario/portafolio-v1",
-  },*/
+  },
+  */
 ];
