@@ -145,7 +145,7 @@ export default function HomePage() {
             <MessageCircle className="text-foreground hover:text-primary" />
           </motion.a>
         </div>
-         <p className="text-sm text-muted-foreground mt-12">© {new Date().getFullYear()} Eric Pastor. Todos los derechos reservados.</p>
+         <p className="text-sm text-muted-foreground mt-12">© {new Date().getFullYear()} Jmgamer1199. Todos los derechos reservados.</p>
       </motion.footer>
     </main>
   )
