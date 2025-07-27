@@ -75,7 +75,7 @@ export default function HomePage() {
       <motion.section id="about" className="py-24" {...sectionAnimation}>
         <h2 className="text-3xl font-bold text-center mb-8">Sobre Mí</h2>
         <p className="text-center max-w-2xl mx-auto text-muted-foreground">
-          Soy un entusiasta en el camino del desarrollo, con experiencia inicial en programación y modelado 3D. A pesar de mi poca trayectoria, he estado inmerso en varios proyectos que demuestran mi pasión y que, progresivamente, iré compartiendo. Mi determinación me impulsa a crecer y aportar en cada nuevo desafío.
+          Soy un entusiasta en el camino del desarrollo, con experiencia inicial en programación y modelado 3D. A pesar de mi poca trayectoria, he estado inmerso en varios proyectos personales que demuestran mi pasión y que, progresivamente, iré compartiendo. Mi determinación me impulsa a crecer y aportar en cada nuevo desafío.
         </p>
       </motion.section>
 
