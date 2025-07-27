@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | Jmgamer',
     default: 'Jmgamer | Desarrollador de Software',
   },
-  description: 'Portafolio profesional de Jmgamer, un apasionado desarrollador de software especializado en crear soluciones web modernas y eficientes.',
+  description: 'Portafolio de Jmgamer, un entusiasta creador de software y artista digital en formación.',
 }
 
 export default function RootLayout({
