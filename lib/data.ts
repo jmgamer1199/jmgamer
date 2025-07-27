@@ -34,7 +34,7 @@ export const PROJECTS = [
   {
     title: "Rus Addon",
     description: "¡Dale la bienvenida a RusAddon a tu mundo de Minecraft Bedrock! Adopta a Rus, un fiel perro con su propia cama, pelota, hueso y cuenco de comida. ¡Disfruta de la compañía de tu nuevo amigo peludo en tus aventuras!",
-    tags: ["React", "Firebase", "Framer Motion"],
+    tags: ["Json", "Minecraft Addon", "Bedrock Edition"],
     // --- NUEVO ---
     imageUrl: "/images/rus_addon.png",
     downloads: [
