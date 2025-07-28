@@ -4,7 +4,7 @@ import { motion, Transition, TargetAndTransition } from 'framer-motion'
 import { Github, Instagram, Twitter, Twitch, Youtube, MessageCircle } from 'lucide-react'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SKILLS, PROJECTS } from '@/lib/data'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 // --- TIPO AÑADIDO ---
 // Definimos un tipo para nuestras animaciones para que TypeScript esté contento
