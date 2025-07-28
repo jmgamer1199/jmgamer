@@ -62,7 +62,7 @@ export const PROJECTS = [
   },
 {
     title: "Generador QR",
-    description: "Crea códigos QR al instante desde tu terminal con esta sencilla app de Python. Introduce tu texto o URL y genera un código QR que se guarda como imagen. Rápido, eficiente y fácil de usar.",
+    description: "Crea códigos QR al instante desde tu terminal con esta sencilla app de Python. Introduce tu URL y genera un código QR que se guarda como imagen. Rápido, eficiente y fácil de usar.",
     tags: ["Python", "QR Code", "Generador"],
     /* imageUrl: "/images/pokeball_reflejos.png", */
     repoUrl: "https://github.com/jmgamer1199/QR-code-generator.git",
