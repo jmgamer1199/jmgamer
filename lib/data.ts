@@ -55,12 +55,19 @@ export const PROJECTS = [
     title: "Pokeball 3d",
     description: "Aquí está mi modelo 3D de una Poké Ball; fue mi primer intento y aún estoy aprendiendo a texturizar, por lo que verás algunos errores. Pero estoy orgulloso de la forma, y creo que la esencia de la Poké Ball está ahí.",
     tags: ["Blender", "Photoshop", "3D Model"],
-    // Este proyecto no tiene 'imageUrl' ni 'downloadUrl'.
     imageUrl: "/images/pokeball_reflejos.png",
     downloads: [
       { label: "Descargar", url: "/downloads/Pokeball.blend" },
     ],
   },
+{
+    title: "Generador QR",
+    description: "Crea códigos QR al instante desde tu terminal con esta sencilla app de Python. Introduce tu texto o URL y genera un código QR que se guarda como imagen. Rápido, eficiente y fácil de usar.",
+    tags: ["Python", "QR Code", "Generador"],
+    /* imageUrl: "/images/pokeball_reflejos.png", */
+    repoUrl: "https://github.com/jmgamer1199/QR-code-generator.git",
+  },
+  
 /*{
     title: "Portafolio Personal v1",
     description: "La primera versión de mi portafolio, construida para aprender los fundamentos de React y el diseño web responsivo.",
