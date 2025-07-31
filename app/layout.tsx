@@ -4,6 +4,7 @@ import './globals.css'
 import { ThemeProvider } from '@/providers/ThemeProvider'
 import { ThemeSwitcher } from '@/components/ThemeSwitcher'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
