@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { ThemeProvider } from '@/providers/ThemeProvider'
-import { ThemeSwitcher } from '@/components/ThemeSwitcher'
+import { Navigation } from '@/components/Navigation'
+import { ScrollProgress } from '@/components/ScrollProgress'
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from "@vercel/speed-insights/react"
 
@@ -26,11 +27,11 @@ export default function RootLayout({
     <html lang="es" suppressHydrationWarning>
       <body className={`${inter.className} antialiased`}>
         <ThemeProvider>
-          {/* Colocamos el ThemeSwitcher en una esquina fija */}
-          <div className="fixed bottom-5 right-5 z-50">
-            <ThemeSwitcher />
+          <ScrollProgress />
+          <Navigation />
+          <div className="pt-16">
+            {children}
           </div>
-          {children}
         </ThemeProvider>
         <Analytics />
         <SpeedInsights />
